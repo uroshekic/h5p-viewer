@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "alenka-h5p"
+  "defaultProject": "alenka-h5p",
+  "cli": {
+    "analytics": "bfa85afd-42da-489d-a7ab-9f58104c8ec9"
+  }
 }

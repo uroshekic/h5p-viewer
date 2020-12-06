@@ -1,0 +1,14 @@
+<div>
+    <div>
+        <h2>Übungen</h2>
+        <ul>
+            <li *ngFor="let key of h5pFilesKeys()">
+                <a [routerLink]="['/h5p', key]">{{ h5pFiles[key].name }}</a>
+            </li>
+        </ul>
+    </div>
+    <div>
+        <h2 *ngIf="h5pPath">{{ h5pFiles[h5pPath].name }}</h2>
+        <div id="h5p-container"></div>
+    </div>
+</div>
